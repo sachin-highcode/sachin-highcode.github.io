@@ -1,0 +1,1145 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+
+
+/* section 1 */
+.mdiv {
+    height: 100vh;
+    width: 100%;
+    background: linear-gradient(to bottom, white, rgb(132, 239, 255) 40%, rgb(0, 150, 255));
+}
+
+.menubar {
+    height: 10%;
+    width: 100%;
+    position: fixed;
+    display: flex;
+    top: 0px;
+    background-color: white;
+    box-shadow: 10px 30px 10px 18px white;
+}
+
+.menubar .logo img {
+    height: 80px;
+    width: 200px;
+    margin-left: 100px;
+    margin-top: 14px;
+}
+
+.navbar {
+    margin-left: 240px;
+    display: flex;
+    align-items: center;
+    margin-top: 50px;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar a {
+    color: rgb(18, 18, 104);
+    text-decoration: none;
+    margin-left: 40px;
+}
+
+.navbar a:hover {
+    color: rgb(45, 151, 187);
+}
+
+.navbar .bt1 {
+    height: 28px;
+    width: 110px;
+    border-radius: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(18, 18, 104);
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    margin-left: 40px;
+    padding: 3px 20px 5px;
+}
+
+.navbar .bt1:hover {
+    background-color: rgb(121, 233, 250);
+    height: 30px;
+    width: 110px;
+    color: rgb(45, 151, 187);
+    border: 1px solid rgb(18, 18, 104);
+}
+
+.des {
+    display: flex;
+}
+
+.des .heading {
+    margin-top: 200px;
+    margin-left: 100px;
+}
+
+.heading span {
+    font-size: 70px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.heading p {
+    height: 160px;
+    width: 560px;
+    font-size: 20px;
+}
+
+.heading .bt2 {
+    height: 60px;
+    width: 150px;
+    border-radius: 5px;
+    background-color: rgb(18, 18, 104);
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 20px;
+}
+
+.des .image {
+    height: 400px;
+    width: 400px;
+    background-image: url(photo/changeimage.gif);
+    background-size: contain;
+    margin-top: 200px;
+    margin-left: 110px;
+    background-repeat: no-repeat;
+}
+
+
+
+/* section 2 */
+.s2div {
+    height: 90px;
+    width: 100%;
+    text-align: center;
+}
+
+.s2div h1 {
+    margin-top: 40px;
+    font-size: 50px;
+    animation: hide 3s linear infinite normal;
+}
+
+@keyframes hide {
+    0% {
+        font-size: 0px;
+    }
+
+    100% {
+        font-size: 50px;
+    }
+}
+/* section 3 */
+.s3mdiv {
+    height: 1500px;
+    width: 100%;
+    justify-content: center;
+    display: grid;
+    grid-template-columns: 330px 330px 330px;
+    background: linear-gradient(to bottom, rgb(253, 255, 255), white 60%, rgb(199, 241, 252));
+    column-gap: 10px;
+}
+
+.s3mdiv div {
+    height: 500px;
+    width: 330px;
+}
+
+.s3mdiv div:hover {
+    background-color: rgb(241, 244, 245);
+} 
+
+/* video */
+.s3cdiv1 {
+    text-align: center;
+    border-bottom: 1px solid rgb(132, 239, 255);
+    border-radius: 4px;
+}
+
+.s3cdiv1 a {
+    text-decoration: none;
+}
+
+.s3cdiv1 a .cdiv1image {
+    display: grid;
+    place-items: center;
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 290px;
+    width: 290px;
+    background-image: url(photo/blob/video.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: 30px;
+    margin-top: 10px;
+}
+
+.s3cdiv1 a h2 {
+    margin-top: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: black;
+}
+
+.s3cdiv1 a p {
+    height: 100px;
+    width: 300px;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 15px;
+    margin-top: 20px;
+    color: black;
+}
+
+.s3cdiv1 a {
+    font-size: 18px;
+    font-weight: bolder;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(75, 219, 241);
+}
+.s3cdiv1 .video:hover{
+    font-size: 20px;
+}
+
+/* design */
+.s3cdiv2 {
+    text-align: center;
+    border-bottom: 1px solid rgb(132, 239, 255);
+    border-radius: 4px;
+}
+
+.s3cdiv2 a {
+    text-decoration: none;
+}
+
+.s3cdiv2 a .cdiv2image {
+    display: grid;
+    place-items: center;
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 310px;
+    width: 310px;
+    background-image: url(photo/blob/design.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-left: 20px;
+}
+
+.s3cdiv2 a h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: black;
+}
+
+.s3cdiv2 a p {
+    height: 100px;
+    width: 300px;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 15px;
+    margin-top: 22px;
+    color: black;
+}
+
+.s3cdiv2 a {
+    font-size: 18px;
+    font-weight: bolder;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(75, 219, 241);
+}
+.s3cdiv2 .graphic:hover{
+    font-size: 20px;
+}
+
+
+/* content */
+.s3cdiv3 {
+    text-align: center;
+    border-bottom: 1px solid rgb(132, 239, 255);
+    border-radius: 4px;
+}
+
+.s3cdiv3 a {
+    text-decoration: none;
+}
+
+.s3cdiv3 a .cdiv3image {
+    display: grid;
+    place-items: center;
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 260px;
+    width: 260px;
+    background-image: url(photo/blob/content.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-left: 30px;
+    margin-top: 20px;
+}
+
+.s3cdiv3 a h2 {
+    margin-top: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: black;
+}
+
+.s3cdiv3 a p {
+    height: 100px;
+    width: 300px;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 15px;
+    margin-top: 22px;
+    color: black;
+}
+
+.s3cdiv3 a {
+    font-size: 18px;
+    font-weight: bolder;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(75, 219, 241);
+}
+.s3cdiv3 .content:hover{
+    font-size: 20px;
+}
+
+
+/* digital */
+.s3cdiv4 {
+    text-align: center;
+    border-bottom: 1px solid rgb(132, 239, 255);
+    border-radius: 4px;
+}
+
+.s3cdiv4 a {
+    text-decoration: none;
+}
+
+.s3cdiv4 a .cdiv4image {
+    display: grid;
+    place-items: center;
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 260px;
+    width: 280px;
+    background-image: url(photo/blob/digital.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: 25px;
+    margin-top: 30px;
+}
+
+.s3cdiv4 a h2 {
+    margin-top: 32px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: black;
+}
+
+.s3cdiv4 a p {
+    height: 100px;
+    width: 300px;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 15px;
+    margin-top: 10px;
+    color: black;
+}
+
+.s3cdiv4 a {
+    font-size: 18px;
+    font-weight: bolder;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(75, 219, 241);
+}
+.s3cdiv4 .digital:hover{
+    font-size: 20px;
+}
+
+
+/* web */
+.s3cdiv5 {
+    text-align: center;
+    border-bottom: 1px solid rgb(132, 239, 255);
+    border-radius: 4px;
+}
+
+.s3cdiv5 a {
+    text-decoration: none;
+}
+
+.s3cdiv5 a .cdiv5image {
+    display: grid;
+    place-items: center;
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 300px;
+    width: 330px;
+    background-image: url(photo/blob/web.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.s3cdiv5 a h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: black;
+}
+
+.s3cdiv5 a p {
+    height: 100px;
+    width: 300px;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 15px;
+    color: black;
+}
+
+.s3cdiv5 a {
+    font-size: 18px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(75, 219, 241);
+}
+.s3cdiv5 .web:hover{
+    font-size: 20px;
+}
+
+
+/* sound */
+.s3cdiv6 {
+    text-align: center;
+    border-bottom: 1px solid rgb(132, 239, 255);
+    border-radius: 4px;
+}
+
+.s3cdiv6 a {
+    text-decoration: none;
+}
+
+.s3cdiv6 a .cdiv6image {
+    display: grid;
+    place-items: center;
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 300px;
+    width: 300px;
+    background-image: url(photo/blob/sound.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.s3cdiv6 a h2 {
+    margin-top: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: black;
+}
+
+.s3cdiv6 a p {
+    height: 100px;
+    width: 300px;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 15px;
+    margin-top: 10px;
+    color: black;
+}
+
+.s3cdiv6 a {
+    font-size: 18px;
+    font-weight: bolder;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(75, 219, 241);
+}
+.s3cdiv6 .sound:hover{
+    font-size: 20px;
+}
+
+
+/* consulation */
+.s3cdiv7 {
+    margin-left: 335px;
+    text-align: center;
+    border-bottom: 1px solid rgb(132, 239, 255);
+    border-radius: 4px;
+}
+
+.s3cdiv7 a {
+    text-decoration: none;
+}
+
+.s3cdiv7 a .cdiv7image {
+    display: grid;
+    place-items: center;
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 200px;
+    width: 200px;
+    background-image: url(photo/blob/consultation.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-left: 65px;
+    margin-top: 50px;
+}
+
+.s3cdiv7 a h2 {
+    margin-top: 70px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: black;
+}
+
+.s3cdiv7 a p {
+    height: 100px;
+    width: 300px;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 15px;
+    margin-top: 10px;
+    color: black;
+}
+
+.s3cdiv7 a {
+    font-size: 18px;
+    font-weight: bolder;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(75, 219, 241);
+}
+.s3cdiv7 .consultation:hover{
+    font-size: 20px;
+}
+
+
+
+/* section 4 */
+.s4mdiv {
+    height: 1500px;
+    width: 100%;
+    background: linear-gradient(to bottom right, white 60%, rgb(226, 245, 250));
+}
+
+.s4cdiv1 {
+    height: 90px;
+    width: 100%;
+    text-align: center;
+}
+
+.s4cdiv1 h1 {
+    margin-top: 40px;
+    font-size: 50px;
+    animation: hide1 3s linear infinite normal;
+}
+
+@keyframes hide1 {
+    0% {
+        font-size: 0px;
+    }
+
+    100% {
+        font-size: 50px;
+    }
+}
+
+.s4centerdiv .s4cdiv2 p {
+    height: 130px;
+    width: 790px;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.s4griddiv {
+    display: grid;
+    grid-template-columns: 130px 130px 130px 130px 130px 130px 130px 130px;
+    column-gap: 20px;
+    text-align: center;
+    margin-left: 110px;
+}
+
+.s4griddiv div {
+    height: 100px;
+    width: 100px;
+}
+
+.s4griddiv .s4griddiv1 {
+    background-image: url(photo/client/eipm.JPG);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.s4griddiv .s4griddiv2 {
+    background-image: url(photo/client/little.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-top: 34px;
+}
+
+.s4griddiv .s4griddiv3 {
+    background-image: url(photo/client/skilllync.JPG);
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-top: 45px;
+}
+
+.s4griddiv .s4griddiv4 {
+    background-image: url(photo/client/maxima.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-top: 45px;
+}
+
+.s4griddiv .s4griddiv5 {
+    background-image: url(photo/client/cz.JPG);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.s4griddiv .s4griddiv6 {
+    background-image: url(photo/client/truereality.JPG);
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-top: 20px;
+}
+
+.s4griddiv .s4griddiv7 {
+    background-image: url(photo/client/cymour.JPG);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.s4griddiv .s4griddiv8 {
+    background-image: url(photo/client/sqare.JPG);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.s4griddiv .s4griddiv9 {
+    background-image: url(photo/client/s2.JPG);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.s4griddiv .s4griddiv10 {
+    background-image: url(photo/client/sapra.JPG);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.s4griddiv .s4griddiv11 {
+    background-image: url(photo/client/pesh.JPG);
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-top: 25px;
+}
+
+.s4griddiv .s4griddiv12 {
+    background-image: url(photo/client/mksg.JPG);
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-top: 22px;
+}
+
+.s4griddiv .s4griddiv13 {
+    background-image: url(photo/client/mitcon.JPG);
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-top: 20px;
+}
+
+.s4griddiv .s4griddiv14 {
+    background-image: url(photo/client/amphenol.JPG);
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-top: 20px;
+}
+
+.s4griddiv .s4griddiv15 {
+    background-image: url(photo/client/vinay.JPG);
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-top: 20px;
+}
+
+.s4griddiv .s4griddiv16 {
+    background-image: url(photo/client/ivf.JPG);
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-top: 5px;
+}
+
+.s4griddiv .s4griddiv17 {
+    background-image: url(photo/client/skilledge.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.s4griddiv .s4griddiv18 {
+    background-image: url(photo/client/teliose.JPG);
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-top: 10px;
+}
+
+.s4griddiv .s4griddiv19 {
+    background-image: url(photo/client/nandu.JPG);
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-top: 15px;
+}
+
+.s4griddiv .s4griddiv20 {
+    background-image: url(photo/client/mi.JPG);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.s4griddiv .s4griddiv21 {
+    background-image: url(photo/client/kolte.JPG);
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-top: 15px;
+}
+
+.s4griddiv .s4griddiv22 {
+    background-image: url(photo/client/jewel.JPG);
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-top: 10px;
+}
+
+.s4griddiv .s4griddiv23 {
+    background-image: url(photo/client/itwizz.JPG);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.s4griddiv .s4griddiv24 {
+    background-image: url(photo/client/kern.JPG);
+    background-size: contain;margin-top: 30px;
+    background-repeat: no-repeat;
+}
+
+.s4griddiv .s4griddiv25{
+    background-image: url(photo/client/skilllync.JPG);background-size: contain;
+    background-repeat: no-repeat; 
+    margin-top: 40px;
+}
+.s4griddiv .s4griddiv26 {
+    background-image: url(photo/client/target.JPG);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.s4griddiv .s4griddiv27 {
+    background-image: url(photo/client/dpagro.JPG);
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-bottom: 23px;
+}
+
+.s4griddiv .s4griddiv28 {
+    background-image: url(photo/client/cp.JPG);
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-top: 30px;
+}
+
+.s4griddiv .s4griddiv29 {
+    background-image: url(photo/client/b.JPG);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.s4griddiv .s4griddiv30 {
+    background-image: url(photo/client/afour.JPG);
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-top: 40px;
+}
+
+.s4griddiv .s4griddiv31 {
+    background-image: url(photo/client/autofine.JPG);
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-top: 38px;
+}
+
+.s4griddiv .s4griddiv32 {
+    background-image: url(photo/client/bse.JPG);
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-top: 38px;
+}
+
+.s4griddiv .s4griddiv33 {
+    background-image: url(photo/client/midas.JPG);
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-top: 15px;
+}
+
+.s4griddiv .s4griddiv34 {
+    background-image: url(photo/client/thebrain.JPG);
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-top: 40px;
+}
+
+.s4griddiv .s4griddiv35 {
+    background-image: url(photo/client/diwine.JPG);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.s4griddiv .s4griddiv36 {
+    background-image: url(photo/client/nature.JPG);
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-top: 15px;
+}
+
+.s4griddiv .s4griddiv37 {
+    background-image: url(photo/client/meera.JPG);
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-top: 20px;
+}
+
+.s4griddiv .s4griddiv38 {
+    background-image: url(photo/client/ps.JPG);
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-left: 28px;
+}
+
+.s4griddiv .s4griddiv39 {
+    background-image: url(photo/client/nkd.JPG);
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-top: 40px;
+}
+
+.s4griddiv .s4griddiv40 {
+    background-image: url(photo/client/braz.JPG);
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-top: 45px;
+}
+
+.s4griddiv .s4griddiv41 {
+    background-image: url(photo/client/pinch.JPG);
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-top: 15px;
+}
+
+.s4griddiv .s4griddiv42 {
+    background-image: url(photo/client/nasscom.JPG);
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-top: 10px;
+}
+
+.s4griddiv .s4griddiv43 {
+    background-image: url(photo/client/lara.JPG);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.s4griddiv .s4griddiv44 {
+    background-image: url(photo/client/hercules.JPG);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.s4griddiv .s4griddiv45 {
+    background-image: url(photo/client/systema.JPG);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 130px;
+    width: 130px;
+}
+
+.s4griddiv .s4griddiv46 {
+    background-image: url(photo/client/stihl.JPG);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.s4griddiv .s4griddiv47 {
+    background-image: url(photo/client/kaybee.JPG);
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-top: 10px;
+}
+
+.s4griddiv .s4griddiv48 {
+    background-image: url(photo/client/biofuel.JPG);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.s4griddiv .s4griddiv49 {
+    background-image: url(photo/client/yello.JPG);
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-top: 25px;
+}
+
+.s4griddiv .s4griddiv50 {
+    background-image: url(photo/client/deccan.JPG);
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-top: 14px;
+}
+
+.s4griddiv .s4griddiv51 {
+    background-image: url(photo/client/dlt.JPG);
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-top: 40px;
+}
+
+.s4griddiv .s4griddiv52 {
+    background-image: url(photo/client/ex.JPG);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.s4griddiv .s4griddiv53 {
+    background-image: url(photo/client/kamala.JPG);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.s4flipdiv {
+    height: 300px;
+    width: 100%;
+    display: flex;
+    column-gap: 10px;
+    justify-content: center;
+    margin-top: 70px;
+}
+
+.s4sector {
+    background-size: contain;
+    height: 300px;
+    width: 200px;
+    background-image: url(photo/sector.JPG);
+    background-repeat: no-repeat;
+}
+
+.s4client {
+    height: 300px;
+    width: 200px;
+    background-size: contain;
+    background-image: url(photo/client.JPG);
+    background-repeat: no-repeat;
+}
+
+
+
+
+/* section 6 */
+.s6mdiv {
+    height: 700px;
+    width: 100%;
+    display: flex;
+    background: linear-gradient(to right, rgb(204, 247, 253), rgb(255, 255, 255)60%);
+}
+
+.s6heading {
+    margin-top: 180px;
+    margin-left: 100px;
+    height: 800px;
+}
+
+.s6heading h1 {
+    font-size: 80px;
+    width: 680px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    margin-bottom: 30px;
+}
+
+.s6heading p {
+    width: 685px;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 20px;
+}
+
+.s6buttons {
+    margin-top: 160px;
+    height: 600px;
+    width: 500px;
+    text-align: center;
+    margin-left: 60px;
+}
+
+.s6buttons a {
+    text-decoration: none;
+    border: 3px solid black;
+    font-size: 20px;
+    margin-left: 100px;
+    display: grid;
+    height: 60px;
+    width: 200px;
+    place-items: center;
+    color: black;
+    grid-template-columns: auto;
+    font-weight: bold;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+.s6buttons a:hover {
+    background-color: black;
+    color: white;
+}
+
+.s6buttons h5 {
+    height: 30px;
+    width: 400px;
+    text-align: center;
+    margin-top: 25px;
+    font-size: 23px;
+    color: black;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+/* section 7 */
+.s7mdiv {
+    height: 360px;
+    width: 100%;
+    display: grid;
+    place-items: cenetr;
+    grid-template-columns: auto auto auto;
+    column-gap: 50px;
+    align-items: center;
+    background-color: rgb(0, 82, 138);
+}
+
+.s7cdiv1 {
+    margin-left: 120px;
+    color: white;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 100px;
+}
+
+.s7cdiv1 .logo {
+    height: 70px;
+    width: 270px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url(photo/client/footer.JPG);
+}
+
+.s7cdiv1 .icon a{
+    font-size: 40px;color:white;margin-left: 5px;margin-top: 10px;
+}
+
+.s7cdiv1 .icon a:hover{color: rgb(250, 225, 6);}
+.s7cdiv2 a {
+    display: block;
+    width: 140px;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    margin-top: 15px;
+}
+
+.s7cdiv2 a:hover {
+    color: rgb(250, 225, 6);
+}
+
+.s7cdiv3 h3 {
+    color: white;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 10px;
+
+}
+
+.s7cdiv3 h2 {
+    color: white;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+.s7cdiv3 a {
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+}
+
+.s7cdiv3 a:hover {
+    color: rgb(250, 225, 6);
+}
+
+
+
+/* section 8 */
+.s8mdiv {
+    height: 70px;
+    width: 100%;
+    background-color: rgb(0, 61, 102);
+    text-align: center;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.s8mdiv p {
+    padding-top: 30px;
+}
+
+.s8mdiv a {
+    color: white;
+    text-decoration: none;
+}
+
+.s8mdiv a:hover {
+    color: rgb(250, 225, 6);
+    text-decoration: none;
+    margin-top: 30px;
+}
