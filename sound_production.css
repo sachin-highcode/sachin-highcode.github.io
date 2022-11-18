@@ -1,0 +1,255 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+/* section 1 */
+.mdiv {
+    height: 55vh;
+    width: 100%;
+    background: linear-gradient(to bottom, white, rgb(132, 239, 255) 40%, rgb(0, 150, 255));
+
+}
+
+.mdiv h1 {
+    text-align: center;
+    padding-top: 200px;
+    font-size: 70px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.menubar {
+    height: 10%;
+    width: 100%;
+    position: fixed;
+    display: flex;
+    top: 0px;
+    background-color: white;
+    box-shadow: 10px 30px 10px 18px white;
+}
+
+.menubar .logo img {
+    height: 80px;
+    width: 200px;
+    margin-left: 100px;
+    margin-top: 14px;
+}
+
+.navbar {
+    margin-left: 240px;
+    display: flex;
+    align-items: center;
+    margin-top: 50px;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar a {
+    color: rgb(18, 18, 104);
+    text-decoration: none;
+    margin-left: 40px;
+}
+
+.navbar a:hover {
+    color: rgb(45, 151, 187);
+}
+
+.navbar .bt1 {
+    height: 28px;
+    width: 110px;
+    border-radius: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(18, 18, 104);
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    margin-left: 40px;
+    padding: 3px 20px 5px;
+}
+
+.navbar .bt1:hover {
+    background-color: rgb(121, 233, 250);
+    height: 30px;
+    width: 110px;
+    color: rgb(45, 151, 187);
+    border: 1px solid rgb(18, 18, 104);
+}
+
+
+/* SECTION 2 */
+.s2mdiv{
+    height: 1100px;width: 100%;
+    background-image: url(photo/aboutus/case3.jpg);padding-left: 100px;
+    background-repeat: no-repeat;background-size: cover;
+
+}
+.s2mdiv .p1{
+    font-size: 18px;font-family: Arial, Helvetica, sans-serif;height: 70px;
+    width: 1200px;padding-top: 100px;color: black;
+}
+
+.s2mdiv h1{
+    padding-top: 90px;
+}
+
+/* div 1 */
+.s2mdiv .s2div1{
+    height: 170px;width: 1200px;border-left: 3px solid blue;margin-top: 30px;
+    background-color: rgb(209, 245, 245);border-radius: 0px 20px 20px 0px;
+    font-size: 18px;font-family: Arial, Helvetica, sans-serif;
+}
+.s2mdiv .s2div1 h3{
+    padding-top: 30px;padding-left: 20px;
+}
+.s2mdiv .s2div1 p{
+    padding-top: 10px;padding-left: 20px;
+}
+
+/* div 2 */
+.s2mdiv .s2div2{
+    height: 170px;width: 1200px;border-left: 3px solid blue;margin-top: 30px;
+    background-color: rgb(209, 245, 245);border-radius: 0px 20px 20px 0px;
+    font-size: 18px;font-family: Arial, Helvetica, sans-serif;
+}
+.s2mdiv .s2div2 h3{
+    padding-top: 30px;padding-left: 20px;
+}
+.s2mdiv .s2div2 p{
+    padding-top: 10px;padding-left: 20px;
+}
+
+/* div 3 */
+.s2mdiv .s2div3{
+    height: 170px;width: 1200px;border-left: 3px solid blue;margin-top: 30px;
+    background-color: rgb(209, 245, 245);border-radius: 0px 20px 20px 0px;
+    font-size: 18px;font-family: Arial, Helvetica, sans-serif;
+}
+.s2mdiv .s2div3 h3{
+    padding-top: 30px;padding-left: 20px;
+}
+.s2mdiv .s2div3 p{
+    padding-top: 10px;padding-left: 20px;
+}
+/* div 4 */
+.s2mdiv .s2div4{
+    height: 170px;width: 1200px;border-left: 3px solid blue;margin-top: 30px;
+    background-color: rgb(209, 245, 245);border-radius: 0px 20px 20px 0px;
+    font-size: 18px;font-family: Arial, Helvetica, sans-serif;
+}
+.s2mdiv .s2div4 h3{
+    padding-top: 30px;padding-left: 20px;
+}
+.s2mdiv .s2div4 p{
+    padding-top: 10px;padding-left: 20px;
+}
+
+
+
+/* section 3 */
+.s3mdiv {
+    height: 360px;
+    width: 100%;
+    display: flex;
+    gap: 170px;
+    align-items: center;
+    background-color: rgb(0, 82, 138);
+}
+
+.s3cdiv1 {
+    margin-left: 0px;
+    color: white;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 100px;
+}
+
+.s3cdiv1 .logo {
+    height: 70px;
+    width: 270px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url(photo/client/footer.JPG);
+}
+
+.s3cdiv1 .icon a {
+    font-size: 40px;
+    color: white;
+    margin-left: 5px;
+    margin-top: 10px;
+}
+
+.s3cdiv1 .icon a:hover {
+    color: rgb(250, 225, 6);
+}
+
+.s3cdiv2 a {
+    display: block;
+    width: 140px;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    margin-top: 15px;
+}
+
+.s3cdiv2 a:hover {
+    color: rgb(250, 225, 6);
+}
+
+.s3cdiv3 h3 {
+    color: white;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 10px;
+
+}
+
+.s3cdiv3 h2 {
+    color: white;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+.s3cdiv3 a {
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+}
+
+.s3cdiv3 a:hover {
+    color: rgb(250, 225, 6);
+}
+
+
+
+/* section 4 */
+.s4mdiv {
+    height: 70px;
+    width: 100%;
+    background-color: rgb(0, 61, 102);
+    text-align: center;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.s4mdiv p {
+    padding-top: 30px;
+}
+
+.s4mdiv a {
+    color: white;
+    text-decoration: none;
+}
+
+.s4mdiv a:hover {
+    color: rgb(250, 225, 6);
+    text-decoration: none;
+    margin-top: 30px;
+}
