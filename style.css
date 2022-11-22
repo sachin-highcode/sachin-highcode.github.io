@@ -5,33 +5,33 @@
 }
 
 html {
-    /* font-size: 62.5%;       /*1rem=16px */
+     font-size: 62.5%;       /*1rem=16px */
 }
  @media(max-width:2560px){
-    html{font-size: 120%;}
+    html{font-size: 117%;}
 } 
 @media(max-width:1440px){
     html{font-size: 61.7%;}
 } 
-@media(max-width:1024px) {
+ @media(max-width:1024px) {
     html {
-        font-size: 80%;
+        font-size: 52%;
     }
 }
 
 @media(max-width:768px) {
     html {
-        font-size: 65%;
+        font-size: 90%;
     }
 }
 
 @media(max-width:425px) {
     html {
-        font-size: 50%;
+        font-size: 70%;
     }
 }
 
-@media(max-width:375px) {
+@media(max-width:365px) {
     html {
         font-size: 35%;
     }
@@ -39,7 +39,7 @@ html {
 
 @media(max-width:320px) {
     html {
-        font-size: 22%;
+        font-size: 3;
     }
 } 
 
