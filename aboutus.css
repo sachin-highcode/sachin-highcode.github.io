@@ -146,10 +146,10 @@ margin-top: 3rem;margin-left: 10rem;
 }
 
 
-/*section 4 */
+/* section 4
 .mcontent{
     position: sticky;z-index: 1;
-}
+} */
 .cloud{
     height: 25rem;width: 110rem;background-color: white;margin-left: 14rem;margin-top: 8rem;
     box-shadow: .2rem .2rem .2rem gray;display: flex;
