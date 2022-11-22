@@ -142,10 +142,10 @@ margin-top: 3rem;margin-left: 10rem;
 }
 
 
-/* section 4 */
-/* .mcontent{
-    background-image: url(photo/aboutus/back1.jfif);background-repeat: no-repeat;background-size: contain;height: 200rem;width: 136.6rem;
-} */
+/* section 4 */ 
+ .mcontent{
+    background-image: url(photo/aboutus/back1.jfif);background-repeat: no-repeat;background-size: contain;height: 125rem;width: 136.6rem;
+}
 .cloud{
     height: 25rem;width: 110rem;background-color: white;margin-left: 14rem;margin-top: 8rem;
     box-shadow: .2rem .2rem .2rem gray;display: flex;
@@ -324,11 +324,13 @@ margin-top: 3rem;margin-left: 10rem;
 
 .s8mdiv p {
     padding-top: 3rem;
+    font-size: 1.5rem;
 }
 
 .s8mdiv a {
     color: white;
     text-decoration: none;
+    font-size: 1.5rem;
 }
 
 .s8mdiv a:hover {
