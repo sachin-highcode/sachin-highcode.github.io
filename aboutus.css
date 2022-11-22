@@ -119,10 +119,6 @@ html {
 .aboutdes p{
     height: 20rem;width: 110rem;font-size: 1.8rem;margin-left: 11rem;margin-top: 1.5rem; 
 }
-/* .about .aboutimage{
-    height: 450px;width: 680px;background-image: url(photo/aboutus/ab.JPG);background-repeat: no-repeat;background-size: contain;
-    
-} */
 
 /* section 3 */
 .vision{
@@ -146,10 +142,10 @@ margin-top: 3rem;margin-left: 10rem;
 }
 
 
-/* section 4
+/* section 4 */
 .mcontent{
-    position: sticky;z-index: 1;
-} */
+    background-image: url(photo/aboutus/back1.jfif);background-repeat: no-repeat;background-size: contain;height: 200rem;width: 136.6rem;
+}
 .cloud{
     height: 25rem;width: 110rem;background-color: white;margin-left: 14rem;margin-top: 8rem;
     box-shadow: .2rem .2rem .2rem gray;display: flex;
