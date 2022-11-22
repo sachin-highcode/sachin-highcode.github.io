@@ -143,9 +143,9 @@ margin-top: 3rem;margin-left: 10rem;
 
 
 /* section 4 */
-.mcontent{
+/* .mcontent{
     background-image: url(photo/aboutus/back1.jfif);background-repeat: no-repeat;background-size: contain;height: 200rem;width: 136.6rem;
-}
+} */
 .cloud{
     height: 25rem;width: 110rem;background-color: white;margin-left: 14rem;margin-top: 8rem;
     box-shadow: .2rem .2rem .2rem gray;display: flex;
