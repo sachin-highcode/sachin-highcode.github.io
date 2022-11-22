@@ -54,7 +54,7 @@ html {
     background-size: cover;background-repeat: no-repeat;
 }
 .menubar {
-    height: 10%;
+    height: 8rem;
     width: 136.6rem;
     position: fixed;
     display: flex;
@@ -130,7 +130,7 @@ html {
     display: flex;place-items: center;box-shadow:.8rem .2rem .5rem .5rem gray;
 }
 .vision .ourvisionimage{
-height: 30rem;width: 40rem;background-image: url(photo/aboutus/ourvision.jpg);
+height: 30rem;width: 40rem;background-image: url(photo/aboutus/ourvision.JPG);
 background-size: contain;background-repeat: no-repeat;
 margin-top: 3rem;margin-left: 10rem;
 }
@@ -146,10 +146,10 @@ margin-top: 3rem;margin-left: 10rem;
 }
 
 
-/* section 4 */
-/* .mcontent{
-    position: sticky;z-index: 1;top: 1250px;
-} */
+/*section 4 */
+.mcontent{
+    position: sticky;z-index: 1;top: 125rem;
+}
 .cloud{
     height: 25rem;width: 110rem;background-color: white;margin-left: 14rem;margin-top: 8rem;
     box-shadow: .2rem .2rem .2rem gray;display: flex;
