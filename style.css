@@ -41,11 +41,14 @@ html {
     html {
         font-size: 25%;
     }
+    .des{
+        flex-wrap: wrap;height: auto;
+    }
 } 
 
 /* section 1 */
 .mdiv {
-    height: auto;
+    height: 65.7rem;
     width: 136.6rem;
     background: linear-gradient(to bottom, white, rgb(132, 239, 255) 40%, rgb(0, 150, 255));
 }
@@ -108,7 +111,7 @@ html {
 }
 
 .des {
-    display: flex;flex-wrap: wrap;
+    display: flex;
 }
 
 .des .heading {
