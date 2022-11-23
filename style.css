@@ -23,6 +23,7 @@ html {
     html {
         font-size: 90%;
     }
+
 }
 
 @media(max-width:425px) {
@@ -35,9 +36,6 @@ html {
     html {
         font-size: 35%;
     }
-    .des{
-        flex-wrap: wrap;height: auto;
-    }
 }
 
 @media(max-width:320px) {
@@ -45,7 +43,7 @@ html {
         font-size: 25%;
     }
 
-} 
+}
 
 /* section 1 */
 .mdiv {
@@ -112,7 +110,7 @@ html {
 }
 
 .des {
-    display: flex;
+    display: flex;height: auto;
 }
 
 .des .heading {
