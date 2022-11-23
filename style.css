@@ -35,15 +35,16 @@ html {
     html {
         font-size: 35%;
     }
+    .des{
+        flex-wrap: wrap;height: auto;
+    }
 }
 
 @media(max-width:320px) {
     html {
         font-size: 25%;
     }
-    .des{
-        flex-wrap: wrap;height: auto;
-    }
+
 } 
 
 /* section 1 */
