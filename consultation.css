@@ -269,11 +269,15 @@ html {
 
 .s4mdiv p {
     padding-top: 3rem;
+    font-size: 1.5rem;
+
 }
 
 .s4mdiv a {
     color: white;
     text-decoration: none;
+    font-size: 1.5rem;
+
 }
 
 .s4mdiv a:hover {

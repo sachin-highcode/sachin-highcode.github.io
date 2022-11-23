@@ -202,7 +202,7 @@ html {
 .s2mdiv .s2div6{
     height: 17rem;width: 120rem;border-left: .3rem solid blue;margin-top: 3rem;
     background-color: rgb(209, 245, 245);border-radius: 0rem 2rem 2rem 0rem;
-    font-size: 18rem;font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.8rem;font-family: Arial, Helvetica, sans-serif;
 }
 .s2mdiv .s2div6 h3{
     padding-top: 3rem;padding-left: 2rem;
@@ -307,11 +307,15 @@ html {
 
 .s4mdiv p {
     padding-top: 3rem;
+    font-size: 1.5rem;
+
 }
 
 .s4mdiv a {
     color: white;
     text-decoration: none;
+    font-size: 1.5rem;
+
 }
 
 .s4mdiv a:hover {
