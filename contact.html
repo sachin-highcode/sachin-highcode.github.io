@@ -27,26 +27,28 @@
     <!-- section 2 -->
     <div class="backdiv">
         <div class="s2mdiv">
-            <form action="form">
-                <input type="text" placeholder="Full Name"><br>
-                <input type="email" placeholder="Email"><input type="text" class="number" placeholder="Phone"><br>
-                <input type="text" placeholder="Company" class="company"><br>
-                <input type="checkbox"><label>Video</label><input type="checkbox"><label>Digital</label>
-                <input type="checkbox"><label>Design</label><input type="checkbox"><label>Content</label>
-                <input type="checkbox"><label>Website</label><input type="checkbox"><label>Sound</label><br>
-                <input type="checkbox"><label>Cloud</label><input type="checkbox"><label>Consultation</label>
-                <input type="checkbox"><label>Other</label><br>
-                <textarea cols="30" rows="5" placeholder="Write a message"></textarea>
+            <form class="form">
+                <input type="text" class="name" placeholder="Full Name" required><br>
+                <input type="email" class="email" placeholder="Email" required><input type="text" class="number"
+                    placeholder="Phone" required><br>
+                <input type="text" class="company" placeholder="Company" class="company" required><br>
+                <input type="checkbox" required><label>Video</label><input type="checkbox" required><label>Digital</label>
+                <input type="checkbox" required><label>Design</label><input type="checkbox" required><label>Content</label>
+                <input type="checkbox" required><label>Website</label><input type="checkbox" required><label>Sound</label><br>
+                <input type="checkbox" required><label>Cloud</label><input type="checkbox" required><label>Consultation</label>
+                <input type="checkbox" required><label>Other</label><br>
+                <textarea cols="30" rows="5" class="msg" placeholder="Write a message" required></textarea>
                 <button src="#">send &#8594;</button>
             </form>
         </div>
+
         <div class="meet">
             <h1>Let's Meet</h1>
         </div>
         <!-- section 3 -->
         <div class="s3mdiv">
             <div class="s3div1">
-                <a href="#" class="fa fa-phone"onclick="window.open('tel:7053737227');"></a>
+                <a href="#" class="fa fa-phone" onclick="window.open('tel:7053737227');"></a>
                 <h4>Give Us A Call​​</h4>
                 <p>+91 7053737227</p>
             </div>
@@ -85,9 +87,9 @@
         </div>
         <div class="s4cdiv3">
             <h3>Let's Connect!</h3>
-            <a href="#"target="_self" onclick="window.open('tel:7053737227');">+91 7053737227</a>
+            <a href="#" target="_self" onclick="window.open('tel:7053737227');">+91 7053737227</a>
             <h2>Drop us amail!</h2>
-            <a href="#">contact@antrikshglobal.com</a>
+            <a href="#" onclick="window. open('mailto:test@example.com');">ss7744892@gmail.com</a>
         </div>
     </div>
 
@@ -96,6 +98,30 @@
     <div class="s5mdiv">
         <p>&copy; 2022 Copyright :<a href="index.html"> Antriksh</a></p>
     </div>
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+    <script>
+        function sendemail(e) {
+            e.preventDefault();
+            const form = document.querySelector('.form');
+            name = document.querySelector('.name'),
+                phone = document.querySelector('.number'),
+                email = document.querySelector('.email'),
+                company = document.querySelector('.company'),
+                msg = document.querySelector('.msg');
+            Email.send({
+                SecureToken: "BCC443F9EEEFC56741371DEE1A85144DC3B0",
+                To: 'sachinsinghkbs@gmail.com',
+                From: email.value,
+                Subject: "new contact form enquairy",
+                Body: "name : " + name.value + "<br>" + "phone no : " + phone.value + "<br>"
+                    + email.value + "<br>" + company.value + "<br>" + msg.value
+            }).then(
+                message => alert('your message sent successfully')
+            );
+        }
+        form.addEventlistener('submit',sendemail);
+
+    </script>
 </body>
 
 </html>
