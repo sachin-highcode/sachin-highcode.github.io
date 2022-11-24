@@ -46,7 +46,7 @@ html {
 
 /* section 1 */
 .mdiv {
-    height: 35rem;
+    height: 50rem;
     width: 136.6rem;
     background: linear-gradient(to bottom, white, rgb(132, 239, 255) 40%, rgb(0, 150, 255));
 
@@ -54,7 +54,7 @@ html {
 
 .mdiv h1 {
     text-align: center;
-    padding-top: 20rem;
+    padding-top: 27rem;
     font-size: 7rem;
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -120,24 +120,24 @@ html {
 
 /* SECTION 2 */
 .s2mdiv{
-    height: 60rem;width: 136.6rem;
+    height: 90rem;width: 136.6rem;
     background-image: url(photo/aboutus/case3.jpg);
     background-size: cover;background-repeat: no-repeat;
-    display: flex;
+    display: flex;align-items: center;justify-content: center;
 }
 .s2mdiv h1{
     color: black;font-size: 7rem;font-family: Arial, Helvetica, sans-serif;
-    padding-top: 27rem;margin-left: 8rem;
+    
 }
 .s2mdiv .image{
     height:70rem;width:70rem;background-size: contain;background-repeat: no-repeat;
     background-image: url(photo/aboutus/case_study.webp);margin-left: 6rem;
-    margin-top: 10rem;
+    margin-top: 25rem;
 }
 
 /* section 3 */
 .s3mdiv {
-    height: 36rem;
+    height: 40rem;
     width: 136.6rem;
     display: flex;
     gap: 18rem;
