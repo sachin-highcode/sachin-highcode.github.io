@@ -10,8 +10,8 @@ html {
  @media(max-width:2560px){
     html{font-size: 117%;}
 } 
-@media(max-width:1420px){
-    html{font-size: 60%;}
+@media(max-width:1400px){
+    html{font-size: 62%;}
 } 
  @media(max-width:1024px) {
     html {
