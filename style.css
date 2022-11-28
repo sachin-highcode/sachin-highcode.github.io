@@ -10,8 +10,8 @@ html {
  @media(max-width:2560px){
     html{font-size: 117%;}
 } 
-@media(max-width:1440px){
-    html{font-size: 61.7%;}
+@media(max-width:1420px){
+    html{font-size: 60%;}
 } 
  @media(max-width:1024px) {
     html {
@@ -23,7 +23,6 @@ html {
     html {
         font-size: 90%;
     }
-
 }
 
 @media(max-width:425px) {
@@ -57,7 +56,7 @@ html {
     width: 136.6rem;
     position: fixed;
     display: flex;
-    background-color: white;
+    background-color: white;z-index: 1;
     box-shadow: 1rem 3rem 1rem 1.8rem white;
 }
 
@@ -111,6 +110,9 @@ html {
 
 .des {
     display: flex;height: auto;
+}
+@media(max-width:768px){
+    .des{display: block;height: 600px;}
 }
 
 .des .heading {
@@ -169,7 +171,7 @@ html {
     animation: hide 3s linear infinite normal;
 }
 
-@keyframes hide {
+/* @keyframes hide {
     0% {
         font-size: 0rem;
     }
@@ -177,7 +179,7 @@ html {
     100% {
         font-size: 5rem;
     }
-}
+} */
 
 /* section 3 */
 .s3mdiv {
@@ -605,7 +607,7 @@ html {
     animation: hide1 3s linear infinite normal;
 }
 
-@keyframes hide1 {
+/* @keyframes hide1 {
     0% {
         font-size: 0rem;
     }
@@ -613,7 +615,7 @@ html {
     100% {
         font-size: 5rem;
     }
-}
+} */
 
 .s4centerdiv .s4cdiv2 p {
     height: 13rem;
